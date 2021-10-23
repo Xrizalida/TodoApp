@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Todo-App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello</h1>
-world
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="#">Xrizalida</a>
+        </div>
+        <div class="menu">
+            <a href="#" class="menu__item">Projects</a>
+            <a href="#" class="menu__item">About me</a>
+            <a href="#" class="menu__item">Contact</a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="todo">
+            <h3 class="todo__title shadow">Todo App</h3>
+            <form class="todo__form">
+                <div class="todo__input shadow">
+                    <input type="text">
+                </div>
+                <button type="button" class="todo__add shadow">Submit</button>
+            </form>
+            <div class="todo__list">
+                <p class="todo__item shadow">Hello</p>
+                <p class="todo__item shadow">I'm Xrizalida</p>
+                <p class="todo__item shadow">Welcome to my todo-app</p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container">
+
+    </div>
+</footer>
+
+<script src="src/js/app.js"></script>
 </body>
 </html>
